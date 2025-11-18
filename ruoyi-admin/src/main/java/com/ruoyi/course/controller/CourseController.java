@@ -29,7 +29,7 @@ public class CourseController extends BaseController
     private ICourseService courseService;
 
     /**
-     * 查询课程管理列表
+     * 查询课程管理列表 test
      */
     @PreAuthorize("@ss.hasPermi('course:course:list')")
     @GetMapping("/list")
